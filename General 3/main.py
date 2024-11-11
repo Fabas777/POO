@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
         jogadores = []
         for jogador in range(quantjogadores):
-            nome = input(f"Insira o nome do jogador {jogador + 1}: ")
+            nome = str(input(f"Insira o nome do jogador {jogador + 1}: "))
             jogadores.append(nome)
         
         # Inicia o jogo com alternância de rodadas
@@ -43,7 +43,7 @@ if __name__ == '__main__':
         print("n sei ainda acho que tem q fazer outra função")
     # Modo contra o Bot    
     else:
-        nome = input("Insira seu nome: ")
+        nome = str(input("Insira seu nome: "))
         jogadores = [nome, "Bot"]
 
         # Inicia o jogo com alternância de rodadas (contra o bot)
