@@ -113,7 +113,7 @@ tri = Triangulo(100, 'green', 0, 0)
 circ = Circulo(50, 'blue', 150, 0)
 est = Estrela(100, 'yellow', 0, 150)
 
-formas = [ret, tri, circ, est]
+formas = [ret, tri, circ, tri]
 for f in formas:
     f.desenhar()
     print(f'Área do {f.nome}: {f.area()}')
